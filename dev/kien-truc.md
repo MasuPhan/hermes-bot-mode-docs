@@ -34,17 +34,7 @@ Hệ quả quan trọng:
 
 ## Luồng dữ liệu cơ bản
 
-```text
-Hermes Desktop (plugin Bot Mode)
-        │  UI trên profile primitive
-        ▼
-Hermes profile (~/.hermes/profiles/<tên>/)
-        │  config · memory · skills · credentials · history
-        ▼
-Gateway RPCs (profiles.*, image.generate)
-        ▼
-Hermes cron (Routines) ──► CLI handoff (bot-to-bot)
-```
+![Kiến trúc Bot Mode](/assets/img/architecture.svg){: width="680"}
 
 ## Ưu điểm của thiết kế này
 

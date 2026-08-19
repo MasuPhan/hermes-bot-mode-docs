@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Node A: Desktop plugin -->
+  <rect x="180" y="20" width="400" height="70" rx="10" fill="#380995"/>
+  <text x="380" y="48" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Hermes Desktop</text>
+  <text x="380" y="70" text-anchor="middle" fill="#cfd8ff" font-size="12">plugin Bot Mode — UI trên profile primitive</text>
+
+  <!-- Arrow A -> B -->
+  <line x1="340" y1="90" x2="310" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="430" y1="91" x2="450" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Node B: Profile -->
+  <rect x="150" y="142" width="470" height="86" rx="10" fill="#2EFCFF" fill-opacity="0.16" stroke="#2EFCFF" stroke-width="1.5"/>
+  <text x="385" y="168" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="700">Hermes profile — ~/.hermes/profiles/&lt;tên&gt;/</text>
+  <text x="330" y="192" text-anchor="middle" fill="#333" font-size="12">config · memory · skills</text>
+  <text x="445" y="192" text-anchor="middle" fill="#333" font-size="12">credentials · history</text>
+  <text x="352" y="212" text-anchor="middle" fill="#555" font-size="11">(một bot = một profile, cô lập hoàn toàn)</text>
+
+  <!-- Arrow B -> C -->
+  <line x1="370" y1="229" x2="358" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Node C: Gateway RPCs -->
+  <rect x="110" y="292" width="520" height="62" rx="10" fill="#f0f0f5" stroke="#bbb"/>
+  <text x="378" y="318" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="700">Gateway RPCs</text>
+  <text x="372" y="338" text-anchor="middle" fill="#444" font-size="12">profiles.* (list · create · describe · configure) · image.generate</text>
+
+  <!-- Arrows C -> D and C -> E -->
+  <line x1="270" y1="354" x2="245" y2="410" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="490" y1="354" x2="515" y2="412" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Node D: Cron -->
+  <rect x="70" y="414" width="350" height="58" rx="10" fill="#f0f0f5" stroke="#bbb"/>
+  <text x="246" y="438" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="700">Hermes cron — Routines</text>
+  <text x="247" y="458" text-anchor="middle" fill="#444" font-size="12">[bot:&lt;tên&gt;] &lt;routine&gt;</text>
+
+  <!-- Node E: CLI handoff -->
+  <rect x="435" y="416" width="255" height="56" rx="10" fill="#f0f0f5" stroke="#bbb"/>
+  <text x="562" y="439" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="700">CLI handoff</text>
+  <text x="561" y="458" text-anchor="middle" fill="#444" font-size="12">hermes -p &lt;bot&gt; chat …</text>
+
+  <!-- Return arrows D -> B and E -> B -->
+  <path d="M100 466 L100 480 L60 496 L60 540 L150 528" fill="none" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)" stroke-dasharray="5,4"/>
+  <path d="M660 472 L700 486 L700 530 L620 522" fill="none" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)" stroke-dasharray="5,4"/>
+
+  <text x="116" y="546" text-anchor="middle" fill="#777" font-size="10">kết quả chạy về chat riêng của bot</text>
+  <text x="648" y="544" text-anchor="middle" fill="#777" font-size="10">tin nhắn đổ vào "Bot Chat" của bot nhận</text>
+</svg>

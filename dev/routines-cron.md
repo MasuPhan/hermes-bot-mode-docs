@@ -24,6 +24,14 @@ Ví dụ:
 [bot:nghien-cuu] Tóm tắt tin tức đối thủ mỗi sáng 8h
 ```
 
+Giao diện Cronjobs của một bot — mỗi routine là một cron job:
+
+![Giao diện Cronjobs của một bot](/assets/img/cronjobs-pane.png){: width="300"}
+
+Khi tạo routine, bạn chọn lịch bằng dropdown thân thiện (không cần viết cron syntax tay), hệ thống tự sinh biểu thức cron:
+
+![Tạo cronjob mới](/assets/img/new-cronjob.png){: width="460"}
+
 Vì là cron job Hermes chuẩn, routine:
 
 - Hiện trong `hermes cron list`.

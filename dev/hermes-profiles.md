@@ -44,6 +44,10 @@ Bot Mode dùng gateway RPC `profiles.*`:
 
 Kèm theo đó, `image.generate` dùng để tạo avatar bằng AI (trả về data URL, hoạt động cả gateway local lẫn remote).
 
+Phần **Advanced** khi tạo/sửa bot cho phép tùy chỉnh sâu profile: model, kỹ năng, SOUL.md:
+
+![Tạo agent — phần cấu hình nâng cao](/assets/img/new-agent-advanced.png){: width="440"}
+
 ## Feature-detect & degrade graceful
 
 Plugin **không giả định** gateway có đủ RPC mới. Nó kiểm tra và giảm chức năng:

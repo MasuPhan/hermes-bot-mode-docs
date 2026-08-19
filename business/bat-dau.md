@@ -21,13 +21,17 @@ Bot Mode **đã tích hợp sẵn** trong Hermes Desktop bản mới. Chỉ cầ
 
 ## Bước 1 — Mở tab Bots
 
-Trong Hermes Desktop, tìm tab **Bots** (cạnh tab Sessions). Một danh sách bot hiện ra — ban đầu có thể chỉ có bot mặc định của bạn.
+Trong Hermes Desktop, tìm tab **Bots** (cạnh tab Sessions). Một danh sách bot hiện ra — ban đầu có thể chỉ có bot mặc định của bạn:
+
+![Tab Bots — danh sách bot](/assets/img/bots-pane.png){: width="360"}
 
 ## Bước 2 — Tạo bot đầu tiên
 
 1. Bấm **New Agent** (Tạo bot mới).
 2. Điền **tên** (ví dụ `nghien-cuu`), **tiêu đề** và **mô tả**.
 3. Bấm tạo. Bot xuất hiện trong danh sách.
+
+![Hộp thoại New Agent](/assets/img/new-agent.png){: width="420"}
 
 Muốn tùy chỉnh sâu (model, kỹ năng, cá tính), mở phần **Advanced** — nhưng để bắt đầu, không cần.
 
@@ -41,7 +45,9 @@ Bên cạnh hội thoại có ô **Routines**. Tạo một việc lặp lại, v
 
 > "Tóm tắt inbox của tôi mỗi sáng 8h."
 
-Bot sẽ tự chạy theo lịch và kết quả nằm trong chat riêng của nó.
+Bot sẽ tự chạy theo lịch và kết quả nằm trong chat riêng của nó:
+
+![Giao diện Cronjobs của một bot](/assets/img/cronjobs-pane.png){: width="320"}
 
 ## Bước 5 — Cho bot nói chuyện với nhau
 

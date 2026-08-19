@@ -31,6 +31,8 @@ Message from 🤖 researcher (@researcher): ...
 
 SOUL.md của bot dạy chúng giao thức này — bao gồm cả cách trả lời.
 
+![Agent to Agent — bot nhắn tin cho bot](/assets/img/agent-to-agent.png){: width="640"}
+
 ## @mention handoff
 
 Trong bất kỳ chat nào, gõ:

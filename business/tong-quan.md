@@ -23,6 +23,12 @@ Thay vì chỉ có **một** trợ lý AI chung cho mọi việc, Bot Mode cho b
 
 Mỗi bot có bộ nhớ, kỹ năng và "cá tính" riêng — không lẫn lộn với nhau.
 
+## Nhìn thực tế
+
+Tab **Bots** — danh sách các bot, mỗi bot một dòng với avatar, tin nhắn gần nhất và thời gian:
+
+![Tab Bots — danh sách các bot](/assets/img/bots-pane.png){: width="440"}
+
 ## Các chức năng chính
 
 | Chức năng | Mô tả |
