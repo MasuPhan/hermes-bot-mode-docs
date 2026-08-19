@@ -46,7 +46,7 @@ Kèm theo đó, `image.generate` dùng để tạo avatar bằng AI (trả về 
 
 Phần **Advanced** khi tạo/sửa bot cho phép tùy chỉnh sâu profile: model, kỹ năng, SOUL.md:
 
-![Tạo agent — phần cấu hình nâng cao](/assets/img/new-agent-advanced.png){: width="440"}
+![Tạo agent — phần cấu hình nâng cao]({{ site.baseurl }}/assets/img/new-agent-advanced.png){: width="440"}
 
 ## Feature-detect & degrade graceful
 

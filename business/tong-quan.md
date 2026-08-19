@@ -27,7 +27,7 @@ Mỗi bot có bộ nhớ, kỹ năng và "cá tính" riêng — không lẫn l�
 
 Tab **Bots** — danh sách các bot, mỗi bot một dòng với avatar, tin nhắn gần nhất và thời gian:
 
-![Tab Bots — danh sách các bot](/assets/img/bots-pane.png){: width="440"}
+![Tab Bots — danh sách các bot]({{ site.baseurl }}/assets/img/bots-pane.png){: width="440"}
 
 ## Các chức năng chính
 

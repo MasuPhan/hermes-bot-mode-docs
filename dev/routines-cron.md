@@ -26,11 +26,11 @@ Ví dụ:
 
 Giao diện Cronjobs của một bot — mỗi routine là một cron job:
 
-![Giao diện Cronjobs của một bot](/assets/img/cronjobs-pane.png){: width="300"}
+![Giao diện Cronjobs của một bot]({{ site.baseurl }}/assets/img/cronjobs-pane.png){: width="300"}
 
 Khi tạo routine, bạn chọn lịch bằng dropdown thân thiện (không cần viết cron syntax tay), hệ thống tự sinh biểu thức cron:
 
-![Tạo cronjob mới](/assets/img/new-cronjob.png){: width="460"}
+![Tạo cronjob mới]({{ site.baseurl }}/assets/img/new-cronjob.png){: width="460"}
 
 Vì là cron job Hermes chuẩn, routine:
 

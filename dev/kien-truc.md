@@ -34,7 +34,7 @@ Hệ quả quan trọng:
 
 ## Luồng dữ liệu cơ bản
 
-![Kiến trúc Bot Mode](/assets/img/architecture.svg){: width="680"}
+![Kiến trúc Bot Mode]({{ site.baseurl }}/assets/img/architecture.svg){: width="680"}
 
 ## Ưu điểm của thiết kế này
 
