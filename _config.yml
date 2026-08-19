@@ -1,0 +1,33 @@
+# Hermes Bot Mode Docs — cấu hình Jekyll (Just-the-Docs)
+title: "Hermes Bot Mode · Tài liệu"
+description: >-
+  Tài liệu kiến thức tiếng Việt về Hermes Bot Mode — biến các agent profiles
+  của Hermes thành một đội bot riêng biệt (chat, avatar, lịch, bot-to-bot).
+  Dành cho cả người đọc business lẫn developer.
+remote_theme: just-the-docs/just-the-docs
+
+# Ngôn ngữ giao diện
+lang: vi
+
+# Màu theme (light mặc định, hợp gu đọc docs)
+color_scheme: light
+
+# Navigation
+permalink: pretty
+search_enabled: true
+heading_anchors: true
+
+# Footer
+footer_content: "© 2026 MasuPhan — Tài liệu tiếng Việt về <a href=\"https://github.com/NousResearch/Hermes-Bot-Mode\">Hermes Bot Mode</a> (MIT © Nous Research)."
+
+# Liên kết ngoài
+aux_links:
+  "Hermes Agent (gốc)":
+    - "https://github.com/NousResearch/hermes-agent"
+  "Repo Bot Mode gốc":
+    - "https://github.com/NousResearch/Hermes-Bot-Mode"
+
+# Build
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
